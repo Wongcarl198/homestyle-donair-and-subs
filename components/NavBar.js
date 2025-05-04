@@ -12,7 +12,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
-import { Box } from '@mui/material';
+import Box  from '@mui/material/Box';
 
 
 
@@ -57,10 +57,9 @@ export default function NavBar() {
                                 backgroundColor: "common.black", 
                                 color: "common.white",
                             }
-                        }}>
-                        <Typography variant='body1'>
+                        }}
+                        >
                             Order Online
-                        </Typography>
                     </Button>
                 </Box>
     )
