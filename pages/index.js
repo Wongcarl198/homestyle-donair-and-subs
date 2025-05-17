@@ -8,6 +8,7 @@ import Image from 'next/image';
 
 import NavBar from "@/components/NavBar"
 import HeroBanner from "@/components/HeroBanner"
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <NavBar />
       <HeroBanner
         image={"/img/donair-poutine1.jpeg"}
-        title={"Welcome to Homestyle Donair & Subs"}
+        title={"Homestyle Donair & Subs"}
         button={"Menu"}
       />
       <Container
@@ -39,6 +40,7 @@ export default function Home() {
           style={{ width: '100%', height: 'auto', borderRadius: '12px' }}
         />
       </Container>
+      <Footer/>
     </main>
 
   )
